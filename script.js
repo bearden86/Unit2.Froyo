@@ -15,5 +15,4 @@ flavors.forEach(flavor => {
 console.log(flavorCounts);
 
 // create a table to display the flavor counts
-const table = document.createElement('table');
 console.table(flavorCounts);
